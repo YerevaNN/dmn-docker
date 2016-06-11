@@ -17,3 +17,8 @@ $ docker run --name dmn_1 -it --rm -p 5000:5000 yerevann/dmn
 ```
 
 It will start a server on the 5000 port. The first prediction will take some time, because the model should be loaded into memory. Just wait a bit until it returns the result. The following predictions will be fast.
+
+Requirements
+------------
+
+Make sure that you have atleast 2GB of memory allocated for your Docker.
